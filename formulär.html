@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formulär.css" />
+  </head>
+  <body>
+    <form action="https://httpbin.org/anything" method="post">
+      <h2>Registreringsformulär:</h2>
+      <br /><br />
+      <div class="formulär">
+        <div class="firstName">
+          <label for="firstName">First Name:</label><br />
+          <input id="firstName" name="firstName" type="text" required />
+        </div>
+        <br />
+        <div class="lastName">
+          <label for="lastName">Last Name:</label><br />
+          <input id="lastName" name="lastName" type="text" required />
+        </div>
+        <br />
+        <div class="userName">
+          <label for="userName">User Name:</label><br />
+          <input id="usertName" name="userName" type="text" required />
+        </div>
+        <br />
+        <div class="lastName">
+          <label for="password">Password:</label><br />
+          <input id="password" name="password" type="password" required />
+        </div>
+        <br />
+        <div class="email">
+          <label for="email">Email:</label><br />
+          <input id="email" name="email" type="email" required />
+        </div>
+        <br />
+        <div class="cats">
+          <label for="cats">Choose a cat:</label> <br />
+          <select name="cats" id="cats">
+            <option value="ragdoll">Ragdoll</option>
+            <option value="bengal">Bengal</option>
+            <option value="perser">Perser</option>
+            <option value="burma">Burma</option>
+          </select>
+          <br />
+          <br />
+        </div>
+        <div class="checkbox">
+          <label for="checkbox">Godkänna villkoren:</label><br />
+          <input id="checkbox name" checkbox type="checkbox" required />
+        </div>
+        <br /><br />
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
